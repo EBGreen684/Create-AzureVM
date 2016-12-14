@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VM>
+    <Name>SMA3</Name>
+    <Location>centralus</Location>
+    <ResourceGroupName>SMA_Testing</ResourceGroupName>
+    <StorageAccountName>smatestingdisks43</StorageAccountName>
+    <VirtualNetworkName>SMA_Testing-vnet</VirtualNetworkName>
+    <PublicIPName>SMA3_IP</PublicIPName>
+    <NICName>SMA3_NIC</NICName>
+</VM>

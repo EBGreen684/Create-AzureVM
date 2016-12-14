@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VM>
+    <Name>ASK</Name>
+    <Location>centralus</Location>
+    <ResourceGroupName>SMA_Testing</ResourceGroupName>
+    <StorageAccountName>ASK</StorageAccountName>
+    <VirtualNetworkName>SMA_Testing-vnet</VirtualNetworkName>
+    <PublicIPName>AUTO</PublicIPName>
+    <NICName>AUTO</NICName>
+</VM>
