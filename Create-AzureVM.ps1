@@ -45,13 +45,13 @@ switch($PsCmdlet.ParameterSetName){
                     $publicIPName = $xml.VM.PublicIPName
                     if($publicIPName -eq 'ASK'){
                         $publicIPName = Read-Host 'Enter the PUBLIC IP NAME'
-                    }elseif($publicIPName -eq 'BUILD'){
+                    }elseif($publicIPName -eq 'AUTO'){
                         $publicIPName = '{0}_IP' -f $name
                     }
                     $nicName = $xml.VM.NICName
                     if($nicName -eq 'ASK'){
                         $nicName = Read-Host 'Enter the NIC NAME'
-                    }elseif($nicIPName -eq 'BUILD'){
+                    }elseif($nicIPName -eq 'AUTO'){
                         $nicIPName = '{0}_NIC' -f $name
                     }
     }
